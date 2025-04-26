@@ -11,12 +11,12 @@ import AddAchievements from "./Pages/AchievementsManagement/AddAchievements";
 import AllAchievements from "./Pages/AchievementsManagement/AllAchievements";
 import UpdateAchievements from "./Pages/AchievementsManagement/UpdateAchievements";
 import NotificationsPage from "./Pages/NotificationManagement/NotificationsPage";
-import AddNewPost from "./Pages/PostManagement/AddNewPost";
-import AllPost from "./Pages/PostManagement/AllPost";
-import UpdatePost from "./Pages/PostManagement/UpdatePost";
+import AddNewPost from "./Pages/ProgressFeed/AddNewPost";
+import AllPost from "./Pages/ProgressFeed/AllPost";
+import UpdatePost from "./Pages/ProgressFeed/UpdatePost";
 import UserProfile from "./Pages/UserManagement/UserProfile";
 import MyAchievements from "./Pages/AchievementsManagement/MyAchievements";
-import MyAllPost from "./Pages/PostManagement/MyAllPost";
+import MyAllPost from "./Pages/ProgressFeed/MyAllPost";
 import GoogalUserPro from "./Pages/UserManagement/GoogalUserPro";
 import MyLearningPlan from "./Pages/LearningPlan/MyLearningPlan";
 
