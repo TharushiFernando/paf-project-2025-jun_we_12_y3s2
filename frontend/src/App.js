@@ -1,9 +1,9 @@
 import React, { useEffect } from "react";
 import { Route, Routes, Navigate } from "react-router";
 import { useNavigate } from "react-router-dom";
-import AddLearningPlan from "./Pages/LearningPlan/AddLearningPlan";
-import AllLearningPlan from "./Pages/LearningPlan/AllLearningPlan";
-import UpdateLearningPlan from "./Pages/LearningPlan/UpdateLearningPlan";
+import AddProgressPlan from "./Pages/ProgressPlan/AddProgressPlan";
+import AllProgressPlan from "./Pages/ProgressPlan/AllProgressPlan";
+import UpdateProgressPlan from "./Pages/ProgressPlan/UpdateProgressPlan";
 import UserLogin from "./Pages/UserManagement/UserLogin";
 import UserRegister from "./Pages/UserManagement/UserRegister";
 import UpdateUserProfile from "./Pages/UserManagement/UpdateUserProfile";
@@ -18,7 +18,7 @@ import UserProfile from "./Pages/UserManagement/UserProfile";
 import MyAchievements from "./Pages/AchievementsManagement/MyAchievements";
 import MyAllPost from "./Pages/PostManagement/MyAllPost";
 import GoogalUserPro from "./Pages/UserManagement/GoogalUserPro";
-import MyLearningPlan from "./Pages/LearningPlan/MyLearningPlan";
+import MyProgressPlan from "./Pages/ProgressPlan/MyProgressPlan";
 
 function ProtectedRoute({ children }) {
   const userID = localStorage.getItem("userID");
